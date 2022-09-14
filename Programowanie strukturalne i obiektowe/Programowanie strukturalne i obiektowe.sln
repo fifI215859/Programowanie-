@@ -45,6 +45,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7. Powt√≥rzenie", "7. Powt√
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Powtorzenie", "Powtorzenie\Powtorzenie.vcxproj", "{5B33E74D-B54A-4695-BC95-942DC58198B3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "zadania", "zadania", "{724CF50D-5DDB-4132-8C54-03E5655BD69F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.editorconfig.inferred = .editorconfig.inferred
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{7567985C-7234-4DB6-AE1B-DE2D9ED33CB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -174,6 +182,8 @@ Global
 		{373539EF-8E53-46F0-82DD-044487242382} = {87FC65B3-E5CA-45A8-B5B9-5544965123DB}
 		{0B5109FD-6DDF-4A44-9C88-13D58D4DB800} = {60F98016-89CB-417F-9BBA-4F868AE7A447}
 		{5B33E74D-B54A-4695-BC95-942DC58198B3} = {1A0633A2-30B8-4C36-8D9D-7E07224710B8}
+		{724CF50D-5DDB-4132-8C54-03E5655BD69F} = {1A0633A2-30B8-4C36-8D9D-7E07224710B8}
+		{7567985C-7234-4DB6-AE1B-DE2D9ED33CB2} = {1A0633A2-30B8-4C36-8D9D-7E07224710B8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {76EC34DF-6BC3-4283-8128-050FEAB28534}
