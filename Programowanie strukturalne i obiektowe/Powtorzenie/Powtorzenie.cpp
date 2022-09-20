@@ -6,6 +6,7 @@ void showMenu()
 	std::cout << "Menu:\n";
 	std::cout << "1. Pole kwadratu\n";
 	std::cout << "2. Pole trojkata\n";
+	std::cout << "grstus\n";
 
 	std::cout << "0, Zamknij progrma\n";
 }
@@ -48,10 +49,7 @@ void doSelectedTask(int selectedOption)
 		triangleArea();
 		break;
 	case 3:
-		return;
-	default:
-		std::cout << "Brak opcji w menu:\n";
-		break;
+
 	}
 
 	system("pause");
@@ -188,6 +186,34 @@ void doSelectedTask(int selectedOption)
 		std::cout << "\n";
 
 	}
+	void zadanieDodatkowe();
+	{
+		int liczba;
+		int liczbaBinarna;
+		int i;
+
+		std::cout << "podaj liczbe w systemie dziesietnym";
+		std::cin >> liczba;
+		{int i;
+		std::cout << "Podaj liczbe\n";
+		std::cin >> liczba == i;
+		do {
+
+			if (liczba != 0)
+			{
+				liczba / 2;
+				i++;
+			}
+			else
+			{
+				std::cout << "i";
+			}
+			;
+
+		} while (liczbaBinarna != 0);
+		}
+	}
+
 
 	void main();
 	{
