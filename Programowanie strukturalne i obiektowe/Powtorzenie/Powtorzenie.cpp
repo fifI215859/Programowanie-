@@ -49,12 +49,11 @@ void doSelectedTask(int selectedOption)
 		triangleArea();
 		break;
 	case 3:
-
 	}
 
 	system("pause");
 
-	if (selectedOption == 1)
+	/*if (selectedOption == 1)
 	{
 		squareArena();
 	}
@@ -65,7 +64,7 @@ void doSelectedTask(int selectedOption)
 	{
 		if (selectedOption)
 	}
-	}
+}*/
 
 	void mainProgram();
 	{
@@ -186,31 +185,53 @@ void doSelectedTask(int selectedOption)
 		std::cout << "\n";
 
 	}
-	void zadanieDodatkowe();
+
+
+	void pieniadze();
 	{
-		int liczba;
-		int liczbaBinarna;
-		int i;
+		int rest; 
+		int money;
+		money = 10; 20; 50; 1; 2; 5; 100; 200; 
 
-		std::cout << "podaj liczbe w systemie dziesietnym";
-		std::cin >> liczba;
-		{int i;
-		std::cout << "Podaj liczbe\n";
-		std::cin >> liczba == i;
-		do {
-
-			if (liczba != 0)
+		std::cout << "Jaka reszta\n";
+		std::cin >> rest; 
+		do
+		{
+			if (rest == 0)
 			{
-				liczba / 2;
-				i++;
+				std::cout << "Brak reszty\n";
 			}
 			else
 			{
-				std::cout << "i";
+				if (rest != 0)
+					
 			}
-			;
+		}while
+	}
 
-		} while (liczbaBinarna != 0);
+
+
+	void zadanieBinarki();
+	{
+		int liczba;
+		std ::string liczbaBinarna;
+		int i;
+		i = liczba;
+		{
+			std::cout << "podaj liczbe w systemie dziesietnym";
+			std::cin >> liczba;
+			do
+			{
+				if (liczba != 0)
+				{
+					liczba % 0;
+					i--;
+				}
+				else
+				{
+					std::cout << "i";
+				}
+			} while (liczba);
 		}
 	}
 
@@ -219,3 +240,32 @@ void doSelectedTask(int selectedOption)
 	{
 		mainProgram();
 	}
+
+	void doSelectedTask(int selectedOption);
+	{
+		switch (selectedOption)
+		{
+		case 1:
+			squareArena();
+			break;
+		case 2:
+			triangleArea();
+			break;
+		case 3:
+			zad4();
+		case 4:
+		}
+
+		system("pause");
+
+		/*if (selectedOption == 1)
+		{
+			squareArena();
+		}
+		if (selectedOption == 2)
+		{
+			triangleArea();
+		else
+		{
+			if (selectedOption)
+		}*/
