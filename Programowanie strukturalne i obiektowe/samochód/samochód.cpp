@@ -119,7 +119,7 @@ int main()
 {
 	setlocale(LC_CTYPE, "polish");
 
-	Car carFirst("Bugatti La vointure Norie");
+	Car carFirst("Bugatti La Vointure Norie");
 	Car carSecond("Audi RSQ8", 10, 10);
 
 	carFirst.ShowInfo();
