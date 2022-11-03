@@ -25,6 +25,7 @@ public:
 	{
 		int Date;
 		std::cin >> Date;
+		
 	}
 
 	void Name(std::string Name)
