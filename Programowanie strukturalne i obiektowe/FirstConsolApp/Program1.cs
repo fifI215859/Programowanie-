@@ -2,7 +2,7 @@
 
 namespace FirstConsolApp
 {
-    class Program
+    class Program1
     {
         static void Main(string[] args)
         {
@@ -34,7 +34,6 @@ namespace FirstConsolApp
             {
                 Console.WriteLine("Nie równe");
             }
-
             var number2 = number + 6.0 +"ydtf";
         }
     }
