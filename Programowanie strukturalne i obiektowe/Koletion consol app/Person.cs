@@ -11,17 +11,19 @@ namespace CollectionConsoleApp
         public string name;
         public string surename;
         public int age;
+        public int height;
 
-        public Person(string name, string surename, int age)
+        public Person(string name, string surename, int age, int height)
         {
             this.name = name;
             this.surename = surename;
             this.age = age;
+            this.height = height;
         }
 
         public void Info()
         {
-            Console.WriteLine(name + " " + surename + " " + age + "Lat");
+            Console.WriteLine(name + " " + surename + " " + age + "lat " + height + "cm");
         }
     }
 }
