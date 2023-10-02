@@ -1,0 +1,7 @@
+﻿  tablice.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(741,5): error MSB6006: "CL.exe" exited with code 2.
+C:\BugajFilip3c\tablice\tablice\tablice.cpp(42,23): error C2065: 'n': undeclared identifier
+C:\BugajFilip3c\tablice\tablice\tablice.cpp(42,26): error C2065: 'n': undeclared identifier
+C:\BugajFilip3c\tablice\tablice\tablice.cpp(55,2): error C2065: 'cout': undeclared identifier
+C:\BugajFilip3c\tablice\tablice\tablice.cpp(61,2): warning C4551: function call missing argument list
+C:\BugajFilip3c\tablice\tablice\tablice.cpp(62,2): warning C4551: function call missing argument list
